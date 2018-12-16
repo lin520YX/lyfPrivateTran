@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add redux react-redux
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.11.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EINVAL: invalid argument, unlink '/Users/linyunfu/Desktop/lyfPrivateTran/react-ts/node_modules/dom-serializer/node_modules/domelementtype'
+
+npm manifest: 
+  {
+    "name": "react-ts",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "build":"webpack",
+      "dev":"webpack-dev-server"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "@types/react": "^16.7.17",
+      "@types/react-dom": "^16.0.11",
+      "@types/react-redux": "^6.0.11",
+      "@types/react-router-dom": "^4.3.1",
+      "connected-react-router": "^6.0.0",
+      "react": "^16.6.3",
+      "react-dom": "^16.6.3",
+      "react-redux": "^6.0.0",
+      "react-router-dom": "^4.3.1",
+      "redux": "^4.0.1",
+      "redux-logger": "^3.0.6",
+      "redux-thunk": "^2.3.0"
+    },
+    "devDependencies": {
+      "html-webpack-plugin": "^3.2.0",
+      "source-map-loader": "^0.2.4",
+      "ts-loader": "^5.3.1",
+      "typescript": "^3.2.2",
+      "webpack": "^4.27.1",
+      "webpack-cli": "^3.1.2",
+      "webpack-dev-server": "^3.1.10"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
